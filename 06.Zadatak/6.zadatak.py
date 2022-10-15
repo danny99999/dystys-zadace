@@ -10,8 +10,8 @@ def spajanje(parametar1, parametar2):
        print('Parametri su istog tipa')
        if type(parametar1 and parametar2) is list:
            print('2 parametra su liste')
-           list3= list1 + list2
-           print(list3)
+           newlist= parametar1 + parametar2
+           print(newlist)
        elif type(parametar1 and parametar2) is dict:
            print('2 parametra su dictionary')
            newdict= parametar1.copy()
@@ -22,7 +22,8 @@ def spajanje(parametar1, parametar2):
         print('Parametri nisu isti')
         
           
-spajanje({1:2, 3:2},{5:2, 4:1})
+spajanje({1:2,3:2}, {5:2,4:1})
+
 
 
 
